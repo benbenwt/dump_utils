@@ -1,0 +1,94 @@
+{
+    "type": "bundle",
+    "id": "bundle--72db8fe5-be30-464e-8c8b-663014490538",
+    "objects": [
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--90ec85aa-7130-4640-9a9f-482bb459eb16",
+            "created": "2021-03-03T12:31:05.771346Z",
+            "modified": "2021-03-03T12:31:05.771346Z",
+            "name": "CVE-2020-1048",
+            "external_references": [
+                {
+                    "source_name": "cve",
+                    "external_id": "CVE-2020-1048"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--75a196a9-0f30-4b34-add5-ffd204c5ce83"
+            ]
+        },
+        {
+
+          "type": "identity",
+
+          "spec_version": "2.1",
+
+          "id": "identity--023d105b-752e-4e3c-941c-7d3f3cb15e9e",
+
+          "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+
+          "created": "2016-04-06T20:03:00.000Z",
+
+          "modified": "2016-04-06T20:03:00.000Z",
+
+          "name": "John Smith",
+
+          "identity_class": "individual"
+
+        },
+        {
+
+          "type": "ipv4-addr",
+
+          "spec_version": "2.1",
+
+          "id": "ipv4-addr--ff26c055-6336-5bc5-b98d-13d6226742dd",
+
+          "value": "198.51.100.3"
+
+        },
+        {
+            "id": "malware--638a437f-151a-4020-b319-5653914be0bd",
+            "description": "The malware ofen run on 67, ports.The md5 value is 7bee25cd6a47a9a29676b7fe5f7b46e2",
+         "modified": "2021-01-31T12:17:08.429121Z",
+          "created": "2021-01-31T12:17:08.429121Z",
+          "is_family": false, "architecture_execution_envs": ["arm"],
+          "type": "malware",
+           "implementation_languages": ["c"],
+           "aliases": ["0c4fbcb4307fa8a1274b6a55e659a35b82af9488046bf5f2c7aa6f5920889fa2"],
+            "name": "0c4fbcb4307fa8a1274b6a55e659a35b82af9488046bf5f2c7aa6f5920889fa2",
+            "spec_version": "2.1"
+        },
+        {
+        "id": "indicator--c3ffff00-1004-48ca-bfa5-9f59ccb471a9",
+        "description": "This file hash indicates that a sample of Poison Ivy is present.", "pattern_type": "stix",
+         "modified": "2021-01-31T12:17:08.429344Z",
+         "created": "2021-01-31T12:17:08.429344Z", "type": "indicator",
+         "valid_from": "2021-01-31T12:17:08.429344Z", "indicator_types": ["malicious-activity"],
+         "pattern_version": "2.1",
+         "name": "File hash for Poison Ivy variant",
+          "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256'='0c4fbcb4307fa8a1274b6a55e659a35b82af9488046bf5f2c7aa6f5920889fa2']"},
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--9139dff3-4365-4b85-8cc4-c1de02119d58",
+            "created": "2021-03-03T12:31:05.771346Z",
+            "modified": "2021-03-03T12:31:05.771346Z",
+            "name": "255009-从CVE-2020-1048到17001：Windows打印机模块中多个提权漏洞分析<<2020-11-1710:46:58>>\n:LOC-unknow',Type-漏洞",
+            "description": "",
+            "published": "2021-01-25T09:00:00Z",
+            "object_refs": [
+                "marking-definition--75a196a9-0f30-4b34-add5-ffd204c5ce83",
+                "vulnerability--67527936-fcd0-4030-939a-3fe83a9d47cb",
+                "vulnerability--90ec85aa-7130-4640-9a9f-482bb459eb16",
+                "vulnerability--7e310e4c-d7d0-4905-a544-6f62b9c13b87"
+            ],
+            "object_marking_refs": [
+                "marking-definition--75a196a9-0f30-4b34-add5-ffd204c5ce83"
+            ]
+        }
+    ]
+}
